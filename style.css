@@ -1,0 +1,132 @@
+body
+{
+    
+    background-color:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+nav
+{
+    font-family: "Poppins", sans-serif;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 55px;
+    background-color: black;
+}
+nav ul li
+{
+    padding: 0px 12px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+}
+.brand img
+{
+    border-radius: 90px;
+    border: 1px solid black;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.container
+{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 12px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./assets/bgc.png);
+    background-size: cover;/*before 4 images were coming as the original image is small so we used bg-size as cover */
+}
+h1
+{
+    margin-left: 12px;
+}
+.songitem
+{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+.songitem img
+{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 80%;
+}
+.songlistplay
+{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ic
+{
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.bottom
+{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+    height: 70px;
+}
+
+#myprogressbar
+{
+    width: 80vw;
+    cursor: pointer;
+    accent-color: rgb(10, 10, 176);
+}
+.icons
+{
+    margin-top: 9px;
+    cursor: pointer;
+}
+.songinfo
+{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

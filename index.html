@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY -your personalize music app</title>
+    <link rel="stylesheet" href="./style.css"> <!-- linked css file-->
+    <!-- linked font-poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- font awesome cdn from font awesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+                                        <!-- HEADER  -->
+   <header>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./assets/logo.png" alt="logo" height="65px" width="65px">Spotify</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+    </ul>
+</nav>
+   </header>
+
+                                        <!-- MAIN SECTION -->
+
+    <div class="container">
+        <div class="songlist">
+            <h1>BEST OF BADSHAH</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="0" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="1" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="2" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="3" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="4" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="one" class="arrayimg">
+                    <span class="songname">GOD DAMM</span>
+                    <span class="songlistplay">03:04 <span class="ic"><i id ="5" class="songitemplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>       
+                                 
+    <div class="bottom">
+        <input type="range" class="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Font awesome icons -->
+            <i class="fa-solid fa-backward fa-2x" id="previous"></i>
+            <i class="fa-regular fa-circle-play fa-2x" id="masterplay"></i>
+            <i class="fa-solid fa-forward fa-2x" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./assets/5uwq.gif" alt="gif" width="42px" id="gif"><span id="mastersongname">God Damn-karan Aujla</span>
+        </div>
+    </div>
+    <script src="./script.js"></script><!-- linked js file -->
+</body>
+</html>
